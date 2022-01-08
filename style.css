@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Genos:wght@300&family=Kite+One&family=Play&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    line-height: 2;
+    color: #46484a;
+    background: azure;
+    
+}
+
+/* ajustando o rodapé e colocando uma animação degradê */
+footer{
+    animation: gradient 10s ease infinite;
+    background: linear-gradient(-45deg, #6fffe9, #00d4db, #72ddf7, #0496ff) no-repeat;
+    justify-content: space-around;
+    background-size: 300% 300%;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+/* ajustando o cabeçalho e colocando uma animação degradê */
+.cabecalho{    
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content:center;
+    padding: 24px;
+    gap: 80px;
+    animation: gradient 10s ease infinite;
+    background: linear-gradient(-45deg, #6fffe9, #00d4db, #72ddf7, #0496ff) no-repeat;
+    background-size: 300% 300%;
+    font-family: 'Genos', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    max-width: 1000px;
+    margin: auto;
+    border-radius: 0 0  30px 30px;
+}
+
+
+.title{
+    color: azure;
+    text-shadow: 
+    -0.5px -0.5px 0px black, 
+    -0.5px 0.5px 0px black,      
+     0.5px -0.5px 0px black,    
+     0.5px 0px 0px black;
+    font-weight: 1000;
+}
+
+.img-pvrs{
+    width: 100px;
+    height: 100px;
+}
+
+.introduction{
+    font-family: 'Play', sans-serif;
+    color: #46484a;
+    background: azure;
+}
+
+.p-text{
+    text-align: justify;
+    font-size: 20px;
+}
+
+.escrita-2{
+    font-size: 20px;
+}
+
+.F1{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+    box-shadow: 6px 6px 2em rgba(0, 0, 0, 0.34);
+    border-radius: 30px 30px  30px 30px;
+}
+
+.F2{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+    box-shadow: 6px 6px 2em rgba(0, 0, 0, 0.34);
+    border-radius: 20px 20px  20px 20px;
+}
+
+.graph-img{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 100%;
+    box-shadow: 6px 6px 2em rgba(0, 0, 0, 0.34);
+    /* border: solid; 
+    border-radius: 30px 30px 30px 30px; */
+}
+
+.ref{
+    font-size: 20px;
+    text-align: justify;
+}
+
+.rodape{
+    display: flex;
+    flex-direction: row;
+    padding: 24px;
+    max-width: 1000px;
+    margin: auto;
+    border-radius: 30px 30px 0 0;
+}
+
+.rodape-redes{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    gap: 50px;
+}
+
+.link{
+    font-size: 35px;
+    color:azure;
+}
+
+.link:hover{
+    color: #000000;
+}
