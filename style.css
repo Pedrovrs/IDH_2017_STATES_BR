@@ -119,8 +119,8 @@ footer{
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
-    height: 70%;
+    width: 80%;
+    height: 80%;
     padding: 10px;
     box-shadow: 6px 6px 2em rgba(0, 0, 0, 0.34);
     border: solid ##e3e3e3; 
